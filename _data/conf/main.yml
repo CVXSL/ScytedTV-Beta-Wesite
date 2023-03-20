@@ -66,7 +66,7 @@ sample_replace: "$site_sample"
 ###########################################################
 # to enable search feature, set to true
 # if you disable this feature, you don't need search.json file so please open the file and uncomment the "published: false"
-search_enable: true
+search_enable: false
 
 # if this is true, search list hides with mouse leave event
 # if this is false, search list hides with mouse click event
@@ -77,16 +77,16 @@ search_list_hide_mouseleave: false
 # when using mobile browser, search result is shown while typing, but you need to push search button on keyboard.
 # with this option search only is triggered when you finish input.
 # when using pc browser after input, push enter to search.
-search_disable_auto_search: true
+search_disable_auto_search: false
 
 # to disable auto complete for search box
 # since search bar uses dropdown list style.
 # when auto_search is enabled, browsers auto complete box overlaps search result.
-search_disable_auto_complete: true
+search_disable_auto_complete: false
 
 # search with uri parameter on page load
 # ex. https://your_github_user_name.github.io/?search="hello"
-search_with_uri: true
+search_with_uri: false
 
 ###########################################################
 #                Image Viewer
