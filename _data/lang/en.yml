@@ -155,7 +155,7 @@ about:
 links:
   title: Links
   button_name: Links
-  link_text: Web site
+  link_text: Website
   info_text: Info
 
 # for projects layout
@@ -173,7 +173,7 @@ privacy-policy:
 constants:
   greetings: Hello
   welcome: Welcome
-  sample: Sample
+  sample: Beta
 
 # for contact form
 contact_form:
