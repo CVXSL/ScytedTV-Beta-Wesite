@@ -42,3 +42,5 @@ img: ":about.jpg"
 {{ website_info_text_first }}
 
 {{ website_info_text_second }}
+
+The content on this page is temporary.

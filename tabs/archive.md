@@ -33,3 +33,5 @@ lng_pair: id_archives
 # to disable this page, simply set published: false or delete this file
 #published: false
 ---
+
+The content on this page is temporary.
