@@ -49,12 +49,12 @@ meta_common_description: "ScytedTV Studios Beta Site"
 # comment to remove any contact item
 contacts:
   #- github: ""
-  #- email: ""
+  - email: "support@scyted.tv"
   #- linkedin: ""
-  #- twitter: ""
+  - twitter: "https://twitter.com/ScytedTV"
   #- mastodon: ""
-  #- instagram: ""
-  #- youtube: ""
+  - instagram: "https://instagram.com/ScytedTV"
+  - youtube: "https://youtube.com/@ScytedTV"
   #- facebook: ""
 # to add more, check the _data/const/contact.yml file
 #  - your_new_contact: ""

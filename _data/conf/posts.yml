@@ -27,10 +27,10 @@ excerpt_start_separator: <!-- outline-start -->
 #                Thumbnail Post
 ###########################################################
 # in Blog page, if picture is provided for thumbnail, it will be shown on the left.
-thumbnail_img: true
+thumbnail_img: false
 
 # in Blog page, if thumbnail_img is true and if no picture is provided for thumbnail, this fills with empty picture for clean look
-thumbnail_img_fill: true
+thumbnail_img_fill: false
 
 ###########################################################
 #                Post Query
