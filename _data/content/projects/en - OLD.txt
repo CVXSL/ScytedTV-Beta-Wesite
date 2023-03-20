@@ -4,25 +4,25 @@
 ###########################################################
 page_data:
   main:
-    header: "Projects"
-    info: "Your Project page description."
-    text_color: "white"
+    header: "ScytedTV Originals"
+    info: "All ScytedTV Original Projections."
+    text_color: "#ffea00"
     # if you don't want to use background image, comment it. back_color will be activated.
     img: ":projects-heading.jpg"
     back_color: "lightblue"
 
-  category:
-    - title: "Example"
-      type: id_example
-      color: "gray"
-    - title: "Picture"
-      type: id_picture
-      color: "#62b462"
-    - title: "Quote"
-      type: id_quote
-      color: "#2FD0ED"
+  # category:
+  #   - title: "Example"
+  #     type: id_example
+  #     color: "gray"
+  #   - title: "Picture"
+  #     type: id_picture
+  #     color: "#62b462"
+  #   - title: "Quote"
+  #     type: id_quote
+  #     color: "#2FD0ED"
 
-  list:
+   list:
     # YouTube Gameshow
     - type: youtube-gameshow
       project_name: "YouTube Gameshow"
