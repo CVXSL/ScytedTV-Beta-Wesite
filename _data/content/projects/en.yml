@@ -22,14 +22,14 @@ page_data:
       type: id_quote
       color: "#2FD0ED"
 
-  list:
+   list:
     # example
-    - type: id_example
-      project_name: "Example Project"
+    - type: youtube-gameshow
+      project_name: "YouTube Gameshow"
       project_excerpt: "Examples"
-      img: ":project1_thumb.jpg"
-      img_title: "img title1"
-      date: "2021-03-13"
+      img: ":YouTube-Gameshow-S1-(SQUARE).jpg"
+      img_title: "YouTube Gameshow S1 (SQUARE)"
+      date: "2023-01-30"
       post: |
         # Examples
 
