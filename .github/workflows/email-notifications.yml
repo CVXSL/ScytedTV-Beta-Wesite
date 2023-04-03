@@ -1,4 +1,4 @@
-name: Email Notifications
+name: Build
 
 on:
   push:
