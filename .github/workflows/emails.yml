@@ -1,25 +1,13 @@
-name: Email Notifications
+name: Demo Notification job
 on: [push]
 jobs:
   First-Step:
     runs-on: ubuntu-latest
     steps:
-      - name: Send mail
-      uses: dawidd6/action-send-mail@v2
-      - run: echo "Sending Email"
-  if: always()
-  with:
-    # mail server settings
-    server_address: smtp.gmail.com
-    server_port: 465
-    # user credentials
-    username: ${{ secrets.EMAIL_USERNAME }}
-    password: ${{ secrets.EMAIL_PASSWORD }}
-    # email subject
-    subject: ${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}
-    # email body as text
-    body: ${{ github.job }} job in worflow ${{ github.workflow }} of ${{ github.repository }} has ${{ job.status }}
-    # comma-separated string, send email to
-    to: wampus.bendy.bot@gmail.com
-    # from email name
-    from: John Doe
+      - if: always()
+      - run: echo "Starting GitHub Actions Job"
+      - uses: cinotify/github-action@main
+        with:
+          to: 'component+af6c0ecf-0174-4ba4-873c-3729a64ebf48@notifications.statuspage.io'
+          subject: '${{ job.status }}'
+          body: 'This is a notification from GitHub actions.'
