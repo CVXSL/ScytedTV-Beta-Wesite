@@ -60,7 +60,6 @@ creative_commons:
 # for 404 layout
 not-found:
   title: "404"
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for post layout
 post:
@@ -105,7 +104,6 @@ post:
       twitter: Twitter
       email: Email
       copy_link: Copy link
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for post-list layout
 post-list:
@@ -130,7 +128,6 @@ post-list:
         year: Year
       # you can use these wildcards, {property} {value} {thumb}
       resultFoundTitleFormat: "{property} : {thumb}"
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for home layout
 home:
@@ -138,21 +135,18 @@ home:
   button_name: Home
   new_posts_title: New Articles
   new_posts_show_more_button: View More ...
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for archives layout
 archives:
   title: Archive
   button_name: Archive
   page_header: Archive
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for about layout
 about:
   title: About
   button_name: About
   email_title: email
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for links layout
 links:
@@ -160,7 +154,6 @@ links:
   button_name: Links
   link_text: Website
   info_text: Info
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for projects layout
 projects:
@@ -168,12 +161,10 @@ projects:
   button_name: Projects
   read_more_text: Read more
   read_less_text: Read less
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # for privacy-policy layout
 privacy-policy:
   title: &privacy_policy_title Privacy policy
-  scytedtv_status: <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 
 # constants to be replaced for
 constants:

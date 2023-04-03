@@ -54,7 +54,7 @@ jobs:
           ISSUE_TEMPLATE_OK: "#### Bump Up github-pages version on Gemfile.\r\n\r\nThis issue is generated automatically."
           ISSUE_TEMPLATE_NG: "#### After bumping up github-pages version, build has failed.\r\n\r\nThis issue is generated automatically.\r\n\r\n%s"
   job2:
-    if: ${{ job1.status == 'success' }}
+    if: ${{ jobs.job1.status == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"

@@ -25,5 +25,4 @@ layout: default
 %}
   {% include post/comments.html %}
 {% endif %}
-
-{{ scytedtv_status }}
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>

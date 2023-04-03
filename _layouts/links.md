@@ -55,5 +55,4 @@ layout: default
   </table>
 </div>
 {% endfor %}
-
-{{ scytedtv_status }}
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
