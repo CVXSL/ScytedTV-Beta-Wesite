@@ -2,6 +2,7 @@ name: Demo Notification job
 on: [push]
 jobs:
   First-Step:
+    if: ${{ github.repository == 'MrGreensWorkshop/MrGreen-JekyllTheme' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"
