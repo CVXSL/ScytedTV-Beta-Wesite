@@ -1,10 +1,11 @@
-name: Build
+name: Email Notifications
 on: [push]
 jobs:
   First-Step:
     runs-on: ubuntu-latest
     steps:
       - name: Send mail
+      - run: echo "Sending Email"
   if: always()
   uses: dawidd6/action-send-mail@v2
   with:
