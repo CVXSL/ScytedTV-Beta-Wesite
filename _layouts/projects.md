@@ -76,3 +76,5 @@ layout: default
     </div>
   {%- endfor %}
 {%- endfor %}
+
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>

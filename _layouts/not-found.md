@@ -61,3 +61,4 @@ layout: default
     </script>
   {% endif -%}
 {% endif -%}
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>

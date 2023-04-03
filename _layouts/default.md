@@ -67,4 +67,5 @@ layout: util/compress
 
     {% include default/scripts-include.html -%}
   </body>
+  <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 </html>

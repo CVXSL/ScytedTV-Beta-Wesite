@@ -55,3 +55,4 @@ layout: default
   </table>
 </div>
 {% endfor %}
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>

@@ -41,3 +41,4 @@ layout: default
     {% include post_common/pager-page-numbers.html pages = nil current_page_url = page.url -%}
   {% endif -%}
 {% endif -%}
+<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
