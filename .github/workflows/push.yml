@@ -24,7 +24,7 @@ on:
 
 jobs:
   job1:
-    if: ${{ github.repository == 'MrGreensWorkshop/MrGreen-JekyllTheme' }}
+    if: ${{ github.repository == 'CVXSL/ScytedTV-Beta-Website' }}
     runs-on: ubuntu-latest
     env: # $BUNDLE_GEMFILE must be set at the job level, so it is set for all steps
       BUNDLE_GEMFILE: ${{ github.workspace }}/Gemfile
