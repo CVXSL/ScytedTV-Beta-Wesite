@@ -8,5 +8,5 @@ jobs:
       - uses: cinotify/github-action@main
         with:
           to: 'status@scyted.tv'
-          subject: 'building main'
+          subject: '${{ github.job }} job of ${{ github.repository }} has ${{ job.status }}'
           body: 'This is a notification from GitHub actions.'
