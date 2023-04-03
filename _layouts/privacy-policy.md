@@ -10,4 +10,5 @@ layout: default
     {{ content }}
   </div>
 </div>
-<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
+
+{{ scytedtv_status }}

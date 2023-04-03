@@ -39,4 +39,5 @@ layout: default
     {%- endfor %}
   </div>
 </div>
-<script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
+
+{{ scytedtv_status }}

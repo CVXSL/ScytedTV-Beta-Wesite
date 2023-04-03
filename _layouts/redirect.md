@@ -15,5 +15,4 @@ layout: util/compress
   <meta name="robots" content="noindex">
   <h1>Redirecting&hellip;</h1>
   <a href="{{ page.redirect.to }}">Click here if you are not redirected.</a>
-  <script src="https://scytedtvstudios.statuspage.io/embed/script.js"></script>
 </html>
