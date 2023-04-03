@@ -1,18 +1,5 @@
 name: Email Notifications
 
-on:
-  push:
-    branches: main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Hello World
-        run: echo Hello, world!
-
   if: always()
   uses: dawidd6/action-send-mail@v2
   with:
