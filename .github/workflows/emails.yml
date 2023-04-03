@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send mail
+      uses: dawidd6/action-send-mail@v2
       - run: echo "Sending Email"
   if: always()
-  uses: dawidd6/action-send-mail@v2
   with:
     # mail server settings
     server_address: smtp.gmail.com
