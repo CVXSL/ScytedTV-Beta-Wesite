@@ -4,7 +4,6 @@ jobs:
   First-Step:
     runs-on: ubuntu-latest
     steps:
-      - if: always()
       - run: echo "Starting GitHub Actions Job"
       - uses: cinotify/github-action@main
         with:
