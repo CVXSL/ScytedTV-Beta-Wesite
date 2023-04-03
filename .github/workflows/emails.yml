@@ -2,12 +2,12 @@ name: Demo Notification job
 on: [push]
 jobs:
   First-Step:
-    if: ${{ github.repository == 'MrGreensWorkshop/MrGreen-JekyllTheme' }}
+    if: ${{ job.status == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Starting GitHub Actions Job"
       - uses: cinotify/github-action@main
         with:
-          to: 'component+af6c0ecf-0174-4ba4-873c-3729a64ebf48@notifications.statuspage.io'
-          subject: '${{ job.status }}'
+          to: 'status@scyted.tv'
+          subject: 'UP'
           body: 'This is a notification from GitHub actions.'
