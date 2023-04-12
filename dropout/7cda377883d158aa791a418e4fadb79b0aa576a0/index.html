@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Game Changer (S01E01)</title>
+   <style>
+      body {
+         font-family: Arial, sans-serif;
+         margin: 0;
+         padding: 0;
+         background-color: #f2f2f2;
+      }
+
+      header {
+         background-color: #1E1E1E;
+         color: #ffea00;
+         padding: 50px 20px;
+         text-align: center;
+         margin-bottom: 25px;
+      }
+
+      h1 {
+         margin: 0;
+         font-size: 48px;
+         font-weight: bold;
+         letter-spacing: 0px;
+         text-transform: uppercase;
+         margin-bottom: -15px;
+      }
+
+      p {
+         font-size: 20px;
+         line-height: 1.5;
+         margin-bottom: 0px;
+         color: #A9A9A9;
+         font-weight: bold;
+      }
+
+      video {
+         display: block;
+         margin: 0 auto;
+         max-width: 100%;
+         box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+         border-radius: 10px;
+      }
+
+      .button-container {
+         display: flex;
+         justify-content: center;
+         margin-top: 20px;
+      }
+
+      .button {
+         display: inline-block;
+         padding: 12px 24px;
+         font-size: 20px;
+         font-weight: bold;
+         text-align: center;
+         text-transform: uppercase;
+         color: #fff;
+         background-color: #1E90FF;
+         border-radius: 10px;
+         margin-left: 10px;
+         text-decoration: none;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .magnet {
+         background-color: #ff0000d2;
+         margin-right: 0;
+      }
+
+      .download {
+         background-color: #4CAF50;
+      }
+
+      .intro-text {
+         font-size: 24px;
+         line-height: 1.5;
+         margin-bottom: 20px;
+         color: #333;
+         text-align: center;
+      }
+   </style>
+
+<script>
+   function showAlert() {
+     alert ("This button is currently disabled!");
+   }
+   </script>
+
+</head>
+
+<body>
+   <header>
+      <h1>Game Changer</h1>
+      <p>Season 01</p>
+   </header>
+   <main>
+      <p class="intro-text">E01: Lie Detector</p>
+      <video width="50%" controls>
+         <source src="game-changer-s01e01.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+      <div class="button-container">
+         <a href="#" onclick="showAlert()" class="button magnet">Magnet</a>
+         <a href="https://github.com/CVXSL/ScytedTV-Beta-Wesite/releases/download/game-changer/Game-Changer.S01E01.mp4"
+            class="button download">Download</a>
+      </div>
+   </main>
+</body>
+
+</html>
