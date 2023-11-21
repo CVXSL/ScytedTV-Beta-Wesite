@@ -3,7 +3,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
 <metadata></metadata>
 <defs>
-<font id="robotomedium" horiz-adv-x="1160" >
+<font id="Rubikmedium" horiz-adv-x="1160" >
 <font-face units-per-em="2048" ascent="1638" descent="-410" />
 <missing-glyph horiz-adv-x="510" />
 <glyph unicode="&#xfb01;" horiz-adv-x="1192" d="M24 902v180h165v92q0 195 115 301t322 106q72 0 143 -15.5t163 -44.5l-37 -201q-62 21 -122 34.5t-130 13.5q-109 0 -160 -48.5t-51 -145.5v-92h213v-180h-213v-902h-243v902h-165zM804 0v1082h243v-1082h-243z" />

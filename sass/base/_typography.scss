@@ -1,83 +1,83 @@
 // FONT-FACE STUFF HERE
 //-----------------------
 
-// Roboto
+// Rubik
 //--------
 
 // light
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'Light';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoLight') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikLight') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 // regular
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'Medium';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoRegular') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikRegular') format('svg');
     font-weight: 400;
     font-style: normal;
 }
 
 // bold
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'Black';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoBold') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikBold') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
 // light italic
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'LightItalic';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoLightItalic') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikLightItalic') format('svg');
     font-weight: 300;
     font-style: italic;
 }
 
 // regular italic
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'MediumItalic';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoItalic') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikItalic') format('svg');
     font-weight: 400;
     font-style: italic;
 }
 
 // bold italic
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Rubik';
     $path-part: 'BlackItalic';
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot');
-    src: url('../fonts/Roboto-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/Roboto-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/Roboto-#{$path-part}-webfont.svg#RobotoBoldItalic') format('svg');
+    src: url('../fonts/Rubik-#{$path-part}.eot');
+    src: url('../fonts/Rubik-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Rubik-#{$path-part}.woff') format('woff'),
+         url('../fonts/Rubik-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/Rubik-#{$path-part}.svg#RubikBoldItalic') format('svg');
     font-weight: 900;
     font-style: italic;
 }
@@ -87,11 +87,11 @@
 @font-face {
     font-family: 'Source Code Pro';
     $path-part: 'regular';
-    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot');
-    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.svg#sourcecodeproregular') format('svg');
+    src: url('../fonts/sourcecodepro-#{$path-part}.eot');
+    src: url('../fonts/sourcecodepro-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-#{$path-part}.woff') format('woff'),
+         url('../fonts/sourcecodepro-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/sourcecodepro-#{$path-part}.svg#sourcecodeproregular') format('svg');
     font-weight: 400;
     font-style: normal;
 }
@@ -99,11 +99,11 @@
 @font-face {
     font-family: 'Source Code Pro';
     $path-part: 'bold';
-    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot');
-    src: url('../fonts/sourcecodepro-#{$path-part}-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.woff') format('woff'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.ttf') format('truetype'),
-         url('../fonts/sourcecodepro-#{$path-part}-webfont.svg#sourcecodeprobold') format('svg');
+    src: url('../fonts/sourcecodepro-#{$path-part}.eot');
+    src: url('../fonts/sourcecodepro-#{$path-part}.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-#{$path-part}.woff') format('woff'),
+         url('../fonts/sourcecodepro-#{$path-part}.ttf') format('truetype'),
+         url('../fonts/sourcecodepro-#{$path-part}.svg#sourcecodeprobold') format('svg');
     font-weight: 700;
     font-style: normal;
 }
