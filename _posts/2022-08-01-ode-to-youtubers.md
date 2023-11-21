@@ -3,9 +3,7 @@ layout: post-full
 type: youtube
 yt-video-id: XL1NP7g-B7U
 homedisplay: iframe
-title: ODE TO YOUTUBERS: A Comedic Tribute & Parody
-tags: [video, iframe]
-category: [video]
+title: ODE TO YOUTUBERS&#58; A Comedic Tribute & Parody
 ---
 AAAAAAAH! 🤩
 Guys, I’m so happy this is FINALLY OUT!! I started work on this project last December. They told us to bring something to do after we were done with finals, and well, I brought a notebook! I spent an hour and ten minutes throwing names and ideas into a book. Now, 7 and a half months later, (with a rather substantial mental health break and my HIGH SCHOOL GRADUATION in between), I am thrilled to bring you all my first film!
