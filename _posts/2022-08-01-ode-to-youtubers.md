@@ -1,5 +1,4 @@
 ---
-author: katiestepp
 layout: post-full
 type: youtube
 yt-video-id: XL1NP7g-B7U
