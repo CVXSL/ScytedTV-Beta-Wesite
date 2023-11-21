@@ -2,7 +2,7 @@
 author: someone
 layout: post-full
 type: youtube
-yt-video-id: E802ZnXbnFY
+yt-video-id: MuNanpSybdU
 homedisplay: iframe
 title: YouTube full
 tags: [video, iframe]
