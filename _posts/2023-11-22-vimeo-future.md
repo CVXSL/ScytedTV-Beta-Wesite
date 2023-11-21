@@ -2,8 +2,8 @@
 layout: post-material-sidebar-right
 author: person
 type: vimeo
-vimeo-embed: <iframe src="https://player.vimeo.com/video/107591790" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-title: Vimeo
+vimeo-embed: <iframe src="https://embed.vhx.tv/videos/2886356?vimeo=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+title: Vimeo Future
 homedisplay: iframe
 tags: [video, iframe]
 category: [video]
