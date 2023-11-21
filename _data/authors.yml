@@ -10,14 +10,14 @@
 #   email: someone@something.com //--> optional
 
 -
-  id: someone
-  name: Some Person
+  id: loydosborne
+  name: Loyd Osborne
   avatar: /profile-pic.jpg
-  bio: this is some more information about the author.
-  facebook: https://www.facebook.com/someone
-  twitter: https://twitter.com/someone
-  instagram: http://instagram.com/someone
-  email: someone@something.com
+  bio: Founder & CEO
+  facebook: 
+  twitter: https://twitter.com/loydosbornestv
+  instagram: http://instagram.com/loydosbornestv
+  email: loyd.osborne@scyted.tv
 -
   id: person
   avatar: /profile-pic.jpg
