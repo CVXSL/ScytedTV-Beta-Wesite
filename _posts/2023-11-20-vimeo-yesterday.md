@@ -1,6 +1,6 @@
 ---
 layout: post-material-sidebar-right
-author: person
+author: loydosborne
 type: vimeo
 vimeo-embed: <iframe src="https://embed.vhx.tv/videos/2886356?vimeo=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 title: Vimeo Yesterday
