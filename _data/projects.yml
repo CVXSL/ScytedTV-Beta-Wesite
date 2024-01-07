@@ -3,7 +3,7 @@
   link: https://www.youtube.com/playlist?list=PL5irix3qFbXNy6-PttkNPjkINJ0K5uqCg
   description: A ScytedTV Original
 - name: Ink & Ideals (Season 1)
-  link: {{site.url}}{{site.baseurl}}/show/ink-and-ideals
+  link: https://www.scyted.tv/show/ink-and-ideals
   image: https://cdn.scyted.tv/website-assets/show-banners/ink-and-ideals.jpg
   description: A ScytedTV Original
 - name: Loyd Does Stupid Shit (Season 1)
@@ -15,8 +15,8 @@
   image: https://cdn.scyted.tv/website-assets/show-banners/landors-shorts.jpg
   description: Distributed By ScytedTV
 - name: Inside Mind (Season 1)
-  link: {{site.url}}{{site.baseurl}}/show/inside-mind
-  image: https://cdn.scyted.tv/website-assets/show-banners/inside-mind.jpg
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXPtqBIvatO-m4RWqANi0xVV
+  image: https://www.scyted.tv/show/inside-mind
   description: A ScytedTV Original
 - name: YouTube Gameshow (Season 1)
   link: https://www.youtube.com/playlist?list=PL5irix3qFbXOqmen0bLZGUD2DqX_h6jAj
