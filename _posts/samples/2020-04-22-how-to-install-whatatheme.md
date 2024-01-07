@@ -37,9 +37,9 @@ The blog card includes
 * The publish date
 * The time which will be required to read the post.
 
-### showss -
-The showss page will include all the showss from the **`showss.yml`** file which is present in the _data folder.<br>
-showss will be showcased in a card-list format where each card will contain
+### shows -
+The shows page will include all the shows from the **`shows.yml`** file which is present in the _data folder.<br>
+shows will be showcased in a card-list format where each card will contain
 * An image related to the shows
 * A shows Title
 * A shows Description of about 80 words
