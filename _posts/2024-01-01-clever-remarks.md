@@ -16,6 +16,6 @@ The contestants of Clever Remarks are given a series of random questions that do
 
 In between each round there will be minigames that will grant extra points to the players. The final round of the game includes some opinion-based questions that are sometimes controversial (not counting towards any points) to spark some debate.
 
-## Requirements
+## Requirements:
 - Must use a camera and microphone.
 - Must be okay with using your legal first and last name for crediting (if you would like us to make an exception, please let us know the reason why and we might grant exceptions).
