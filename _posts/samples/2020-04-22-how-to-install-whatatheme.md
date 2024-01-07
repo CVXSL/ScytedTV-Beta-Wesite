@@ -37,12 +37,12 @@ The blog card includes
 * The publish date
 * The time which will be required to read the post.
 
-### shows -
-The shows page will include all the shows from the **`shows.yml`** file which is present in the _data folder.<br>
-shows will be showcased in a card-list format where each card will contain
-* An image related to the shows
-* A shows Title
-* A shows Description of about 80 words
+### Projects -
+The Projects page will include all the projects from the **`projects.yml`** file which is present in the _data folder.<br>
+Projects will be showcased in a card-list format where each card will contain
+* An image related to the project
+* A Project Title
+* A Project Description of about 80 words
 
 ### Footer -
 The footer includes
