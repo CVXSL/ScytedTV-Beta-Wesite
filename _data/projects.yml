@@ -1,24 +1,24 @@
-- name: ScytedTV News
+- name: ScytedTV News (Season 1)
   image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-news.jpg
-  link:
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXNy6-PttkNPjkINJ0K5uqCg
   description: A ScytedTV Original
-- name: Ink & Ideals
-  link:
+- name: Ink & Ideals (Season 1)
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXPNNdVPnbiANEVBVyls9mzg
   image: https://cdn.scyted.tv/website-assets/show-banners/ink-and-ideals.jpg
   description: A ScytedTV Original
-- name: Loyd Does Stupid Shit
-  link:
+- name: Loyd Does Stupid Shit (Season 1)
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXPtqBIvatO-m4RWqANi0xVV
   image: https://cdn.scyted.tv/website-assets/show-banners/loyd-does-stupid-shit.jpg
   description: A ScytedTV Original
-- name: Landor's Shorts
-  link:
+- name: Landor's Shorts (Season 1)
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXPtqBIvatO-m4RWqANi0xVV
   image: https://cdn.scyted.tv/website-assets/show-banners/landors-shorts.jpg
   description: Distributed By ScytedTV
-- name: Inside Mind
-  link:
+- name: Inside Mind (Season 1)
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXPtqBIvatO-m4RWqANi0xVV
   image: https://cdn.scyted.tv/website-assets/show-banners/inside-mind.jpg
   description: A ScytedTV Original
-- name: YouTube Gameshow
-  link:
+- name: YouTube Gameshow (Season 1)
+  link: https://www.youtube.com/playlist?list=PL5irix3qFbXOqmen0bLZGUD2DqX_h6jAj
   image: https://cdn.scyted.tv/website-assets/show-banners/youtube-gameshow.jpg
   description: A ScytedTV Original
