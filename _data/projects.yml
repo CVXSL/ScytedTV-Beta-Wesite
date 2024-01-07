@@ -1,24 +1,24 @@
 - name: ScytedTV News
-  image: https://cdn.scyted.tv/website-assets/scytedtv-news.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/scytedtv-news.jpg
   link:
   description: A ScytedTV Original
 - name: Ink & Ideals
   link:
-  image: https://cdn.scyted.tv/website-assets/ink-and-ideals.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/ink-and-ideals.jpg
   description: A ScytedTV Original
 - name: Loyd Does Stupid Shit
   link:
-  image: https://cdn.scyted.tv/website-assets/loyd-does-stupid-shit.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/loyd-does-stupid-shit.jpg
   description: A ScytedTV Original
 - name: Landor's Shorts
   link:
-  image: https://cdn.scyted.tv/website-assets/landors-shorts.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/landors-shorts.jpg
   description: Distributed By ScytedTV
 - name: Inside Mind
   link:
-  image: https://cdn.scyted.tv/website-assets/inside-mind.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/inside-mind.jpg
   description: A ScytedTV Original
 - name: YouTube Gameshow
   link:
-  image: https://cdn.scyted.tv/website-assets/youtube-gameshow.jpg
+  image: https://cdn.scyted.tv/website-assets/show-banners/youtube-gameshow.jpg
   description: A ScytedTV Original
