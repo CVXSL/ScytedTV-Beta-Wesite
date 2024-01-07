@@ -1,97 +1,56 @@
-# WhatATheme
-markdown: kramdown
+# Site settings
+title: "Inside Mind"
+description: "Ink & Ideals is a philosophical video essay series about pop culture and anime."
+podcast-description: "Welcome to "Inside Mind" hosted by Loyd Osborne, the podcast where we fearlessly dive into mental health and those tough existential topics that are hard to navigate. Join Loyd as he has honest and raw conversations with experts and real people who have faced their inner demons, creating a safe space to be open and vulnerable. Get ready to explore the deep corners of the human mind, confront uncomfortable truths, and discover practical insights for self-discovery and growth. So, hop on board this transformative journey where we challenge norms, expand our understanding, and embrace the beautiful messiness of being human, one episode at a time."
+url:  "https://insidemind.scyted.tv/" # Actual base url of the website
+baseurl: "/"                    # url of the jekyll blog. e.g. if you set url to "mysite.com" and baseurl to "blog", the jekyll website will work on "mysite.com/blog"
+author:
+  name: "Loyd Osborne"
+  email: "loyd.osborne@scyted.tv"
+  url: "https://scyted.tv/"
+permalink: pretty
+permalink: /:title
+keywords: [podcast, jekyll]
 
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+#Plugins
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 
-# Title of the Site
-title: ScytedTV Studios
-# Description of the Site
-description: We create the good shit!
-# URL of Image of the Site
-site-image: /assets/images/meta.jpg
-# Keywords of the Site
-site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url: favicon.ico
+#exclude: [_podcast.rss] #Ignore this, it will be used in case I decide to add rss feed
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+#Pagination
+paginate: 5
+paginate_path: "/page-:num/"
 
-# Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: support@scyted.tv
-facebook_username:
-twitter_username: scytedtv
-instagram_username: scytedtv
-linkedin_username: 
-github_username:  
-youtube_channel_id: UCBClJ5Q0LTCRtlEYE1oB6Pg
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
-
-# Google Analytics
-google-analytics: G-54KSRP46MF
-
-# Disqus
-disqus-shortname: 
-
-# Name of the Author
-author-name: ScytedTV Studios
-# URL for the Image of the Author
-author-image: https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg
-# 60 Words About the Author
-author-about: ScytedTV Studios takes pride in bringing forward like-minded individuals to create something everyone can be proud of. As a viewer, you can experience our comedic content and explore new ideas that you've never seen before. We are consistently working on something new that is out of our comfort zones, so that we can impress you. Keep an eye out as new content from ScytedTV comes every week!
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://youtube.com/@ScytedTV
-
-# SASS
+#Sass
 sass:
-  sass_dir: _sass
   style: compressed
+  sourcemap: never
 
-# Build settings
-plugins:
-  - jekyll-admin
-  - jekyll-feed
+#SEO
+twitter:
+  username: loydosbornestv
+  card: summary
+facebook:
+  app_id: 
+logo: https://cdn.scyted.tv/assets/scytedtv/show/inside-mind/icons/icon.jpg
+social:
+  name: Alessio Franceschi
+  links:
+    - https://twitter.com/loydosbornestv
+    - https://instagram.com/loydosbornestv
+lang: it
 
-# Permalink
-permalink: "blog/:title"
-
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
-defaults:
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
-
-# Exclude
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+#Podcast Metadata. Used by the RSS Feed, which currently isn't in use. So you can avoid this
+podcast_title: Inside Mind
+podcast_author: Loyd Osborne
+podcast_email: podcasts@scyted.tv
+podcast_subtitle: "Welcome to "Inside Mind" hosted by Loyd Osborne, the podcast where we fearlessly dive into mental health and those tough existential topics that are hard to navigate."
+podcast_summary: "Welcome to "Inside Mind" hosted by Loyd Osborne, the podcast where we fearlessly dive into mental health and those tough existential topics that are hard to navigate."
+podcast_description: "Welcome to "Inside Mind" hosted by Loyd Osborne, the podcast where we fearlessly dive into mental health and those tough existential topics that are hard to navigate. Join Loyd as he has honest and raw conversations with experts and real people who have faced their inner demons, creating a safe space to be open and vulnerable. Get ready to explore the deep corners of the human mind, confront uncomfortable truths, and discover practical insights for self-discovery and growth. So, hop on board this transformative journey where we challenge norms, expand our understanding, and embrace the beautiful messiness of being human, one episode at a time."
+podcast_explicit: "yes"
+podcast_type: serial 
+podcast_lang: en
+podcast_launch: "2023-06-01" #Launch date of your podcast
+podcast_copyright: "&#xA9;ScytedTV Studios"
+podcast_feed: 
+podcast_artwork: "https://cdn.scyted.tv/assets/scytedtv/show/inside-mind/icons/icon.jpg"
