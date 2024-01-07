@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: shows
 title: Shows
 ---
 
