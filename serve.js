@@ -5,7 +5,7 @@ const path = require('path');
 const bundlerExecutable = 'bundler';
 
 // Specify the Jekyll serve command with Bundler
-const jekyllServeCommand = `${bundlerExecutable} exec jekyll serve`;
+const jekyllServeCommand = `${bundlerExecutable} exec jekyll serve --trace --incremental`;
 
 // Execute the Jekyll serve command
 const child = exec(jekyllServeCommand, { cwd: path.resolve(__dirname) });
