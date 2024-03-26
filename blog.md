@@ -1,5 +1,0 @@
----
-title: Casting
-layout: blog
----
-
