@@ -1,33 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Custom Video Player</title>
-    <!-- Font Awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+---
+layout: page
+type: resources
+---
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            margin: 0;
-            padding: 0;
-        }
         .video-container {
-            max-width: 800px;
-            margin: 20px auto;
-            background-color: #fff;
+            max-width: 100%;
+            margin: 35px auto;
             border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
             position: relative;
-            height: 90vh; /* Set height to 90% of the viewport height */
-            display: flex; /* Use flexbox for alignment */
-            align-items: center; /* Center vertically */
-            justify-content: center; /* Center horizontally */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .video-container video {
-            width: auto; /* Set width to auto */
-            height: 100%; /* Make the video element fill its container */
+            width: auto;
+            height: 100%;
             border-radius: 12px;
             outline: none;
         }
@@ -35,8 +24,8 @@
             display: flex;
             flex-wrap: wrap; /* Allow wrapping on small screens */
             align-items: center;
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 0 0 12px 12px;
+            background-color: rgba(238, 238, 238, 0.8);
+            border-radius: 12px;
             padding: 10px;
             position: absolute;
             bottom: 0;
@@ -53,7 +42,11 @@
             font-size: 16px;
             font-weight: bold;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 5px; /* Add margin between buttons */
+            margin: 5px;
+            background-color: white;
+        }
+        .video-controls button:hover {
+            background-color: rgba(0, 0, 0, 0.1);
         }
         .video-controls #timeDisplay {
             font-size: 14px; /* Decrease font size for small screens */
@@ -66,7 +59,7 @@
             margin-right: auto; /* Push volume controls to the right on small screens */
         }
         .video-controls #volumeButton {
-            background-color: transparent;
+            background-color: white;
             border: none;
             cursor: pointer;
         }
@@ -121,7 +114,7 @@
             top: -5px;
             width: 10px;
             height: 25px;
-            background-color: transparent; /* Changed to transparent */
+            background-color: transparent;
             cursor: pointer;
         }
         .video-controls #seekHandle::after {
@@ -132,7 +125,6 @@
             transform: translate(-50%, -50%);
             width: 10px;
             height: 10px;
-            background-color: #4CAF50;
             border-radius: 50%;
         }
         .video-controls #downloadLink {
@@ -162,9 +154,14 @@
                 margin: 5px 0; /* Add vertical margin between buttons */
             }
         }
-    </style>
-</head>
-<body>
+        hr.has-background-black {
+        display: none;
+    }
+
+    h1.title {
+        display: none;
+    }
+</style>
     <div class="video-container">
         <video id="videoPlayer" controlsList="nodownload">
             <source src="" type="video/mp4">
@@ -352,4 +349,3 @@
         }
     </script>
 </body>
-</html>
