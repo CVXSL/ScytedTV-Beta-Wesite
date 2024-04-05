@@ -1,115 +1,79 @@
-# WhatATheme
-markdown: kramdown
+# ----
+# Site
 
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
+title: Edition Template
+url: "https://long-pig.cloudvent.net"
+baseurl:
+google_analytics_key:
+show_full_navigation: true
 
-# Title of the Site
-title: ScytedTV Resources
-# Description of the Site
-description: Mysterious page you've never seen before.
-# URL of Image of the Site
-site-image:
-# Keywords of the Site
-site-keywords: 
-# URL for the Image of custom Favicon
-favicon-url: https://cdn.scyted.tv/favicon.ico
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Product documentation template for Jekyll.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Edition Template
+  links:
+    - https://github.com/CloudCannon/edition-jekyll-template
 
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://cdn.scyted.tv/website-assets/website/hero-image.jpg
+# -----
+# Build
 
-# Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: support@scyted.tv
-facebook_username:
-twitter_username: scytedtv
-instagram_username: scytedtv
-linkedin_username: 
-github_username:  scytedtv-studios
-youtube_channel_id: UCBClJ5Q0LTCRtlEYE1oB6Pg
-reddit_username: /scytedtv
-behance_username: /
-dribbble_username: /
-spotify_username: /31idmdqoug7g2jjio2gr2bp2ehiu
+timezone: Etc/UTC
 
-# Google Analytics
-google-analytics: G-54KSRP46MF
+permalink: pretty
 
-# Disqus
-disqus-shortname: scytedtv-studios
-
-# Name of the Author
-author-name: ScytedTV Studios
-# URL for the Image of the Author
-author-image: https://cdn.scyted.tv/assets/scytedtv/logos/scytedtv-inverted.jpg
-# 60 Words About the Author
-author-about: ScytedTV Studios takes pride in bringing forward like-minded individuals to create something everyone can be proud of. As a viewer, you can experience our comedic content and explore new ideas that you've never seen before. We are consistently working on something new that is out of our comfort zones, so that we can impress you. Keep an eye out as new content from ScytedTV comes every week!
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://youtube.com/@ScytedTV
-
-# SASS
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# Build settings
 plugins:
-  - jekyll-admin
-  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# Permalink
-permalink: "blog/:title"
-
-# Compress
-compress_html:
-  clippings: all
-
-# Defaults
-defaults:
-
-  -
-    scope:
-      type: 'posts'
-    values:
-      layout: post
-      post-image: ""
-      description: ""
-      tags:
-        - ""
-
-  -
-    scope:
-      type: 'pages'
-    values:
-      layout: page
-  -
-    scope:
-      type: 'schedule'
-    values:
-      layout: page
-  -
-    scope:
-      type: 'show'
-    values:
-      layout: page
-  -
-    scope:
-      type: 'discussion'
-    values:
-      layout: page
-
-# Exclude
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - README.md
+  - LICENCE
+
+collections:
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+      _options:
+        content:
+          width: 800
+          height: 2000
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      _comments:
+        type: Marks the impact of this release
+
+# -----------
+# CloudCannon
+
+types:
+  - minor
+  - major
