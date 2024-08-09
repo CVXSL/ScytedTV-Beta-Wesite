@@ -12,10 +12,10 @@ linkedin_username:
 facebook_username: 
 
 # External API
-giscus_repo: "ScytedTV-Studios/beta.scyted.tv"
-giscus_repoId: "R_kgDOJMCDWQ"
+giscus_repo: "ScytedTV-Studios/ScytedTV-News-Discussions"
+giscus_repoId: "R_kgDOMhkxrQ"
 giscus_category: "General"
-giscus_categoryId: "DIC_kwDOJMCDWc4ChhLT"
+giscus_categoryId: "DIC_kwDOMhkxrc4ChhL9"
 goatcounter_code: scytedtvnews
 google_analytics: G-N5KQTJYNRC
 
